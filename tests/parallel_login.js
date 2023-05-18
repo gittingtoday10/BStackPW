@@ -46,7 +46,7 @@ const capabilities = [
   'browser_version': 'latest', 
   'os_version': 'ventura',
   'name': 'Chrome on ventura latest',
-  'build': 'playwright-sairam'
+  'build': 'playwright-sairam-final'
 },
 {
   'browser': 'edge',  
@@ -54,28 +54,28 @@ const capabilities = [
   'os': 'osx',
   'os_version': 'ventura',
   'name': 'Edge on ventura latest-1',
-  'build': 'playwright-sairam'
+  'build': 'playwright-sairam-final'
 },
 {
   'browser': 'playwright-firefox', 
   'os': 'osx',
   'os_version': 'ventura',
   'name': 'firefox on ventura default',
-  'build': 'playwright-sairam'
+  'build': 'playwright-sairam-final'
 },
 {
   'browser': 'playwright-webkit',  
   'os': 'osx',
   'os_version': 'ventura',
   'name': 'webkit on ventura default',
-  'build': 'playwright-sairam'
+  'build': 'playwright-sairam-final'
 },
 {
   'browser': 'chrome',  
   'os': 'windows',
   'os_version': '10',
   'name': 'Chrome on Win10',
-  'build': 'playwright-sairam'
+  'build': 'playwright-sairam-final'
 }]
 
 capabilities.forEach(async (cap) => {
