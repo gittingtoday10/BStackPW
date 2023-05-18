@@ -1,0 +1,21 @@
+{
+  "name": "v1.28_playwright_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sample-local-test": "npx playwright test tests/local_test.js",
+    "sample-test": "npx playwright test tests/sample_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.33.0",
+    "browserstack-local": "^1.5.1",
+    "chai": "^4.3.7"
+  },
+  "dependencies": {
+    "playwright": "^1.33.0"
+  }
+}
